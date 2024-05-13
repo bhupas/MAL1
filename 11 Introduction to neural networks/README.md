@@ -8,7 +8,7 @@ For background and as reference: Ch 12
 
 [3Blue1Brown: Neural networks (video series)](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 
-[Session material](#)
+Session material: In this folder
 
 You will need to install tensorflow and (optionally) tensorboard before this lesson. Specifically, you need tensorflow 2.0 or higher to be able to use all the functionalities in the notebooks. If you don't know whether you have these packages installed, you can open an anaconda prompt and type
 
@@ -40,9 +40,4 @@ After attending this lecture, reading the corresponding part of the book and doi
 - Reflect upon the problems caused by using (a) perceptrons as artificial neurons and (b) the accuracy as the metric to optimize during model training, including how these problems can be solved using activation and loss functions, respectively.
 - Sketch different activation functions, including the sigmoid, tanh and ReLU functions, and discuss why the softmax activation function is generally used in the output layer.
 - Implement a neural network in python using the tensorflow.keras module.
-- Explain and implement the train-validation-test methodology to control the training of a neural network, including explaining why the validation set cannot be used as a test set.
-- Exemplify how callbacks can be used to control the training of a neural network.
-- Outline and implement different regularization techniques, including L1, L2 and dropout regularization.
-- Reflect upon what you need to consider in order to construct a neural network.
-- Discuss advantages and disadvantages of neural networks.
 
